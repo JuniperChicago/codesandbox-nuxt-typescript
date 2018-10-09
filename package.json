@@ -1,0 +1,27 @@
+{
+  "name": "codesandbox-nuxt-typescript",
+  "version": "1.0.0",
+  "description": "Nuxt starter for CodeSandBox with Typescript",
+  "author": "JuniperChicago",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "@types/node": "10.11.5",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0",
+    "nuxt-property-decorator": "1.2.0",
+    "ts-loader": "5.2.1",
+    "typescript": "3.1.1 - latest",
+    "vuex-class": "0.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "keywords": []
+}
