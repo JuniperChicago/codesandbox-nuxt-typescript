@@ -19,17 +19,17 @@
 </template>
 
 <script lang="ts">
-
+import { Component, Vue } from 'nuxt-property-decorator'
 import Logo from '~/components/Logo.vue'
 import IconLink from '~/components/IconLink.vue'
 
-
-export default {
+@Component({
   components: {
     Logo,
     IconLink
   }
-}
+})
+export default class extends Vue {}
 </script>
 
 <style scoped>

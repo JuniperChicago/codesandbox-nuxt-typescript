@@ -11,7 +11,7 @@
 export default {
   asyncData() {
     return {
-      // name: (process.server ? 'server' : 'client')
+      name: process['server'] ? 'server' : 'client'
     }
   }
 }
