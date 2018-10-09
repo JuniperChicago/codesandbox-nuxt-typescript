@@ -4,6 +4,8 @@
 
 This is a typescript version of the nuxt boilerplate found at https://github.com/nuxt/codesandbox-nuxt
 
+[codesandbox.io instance](https://codesandbox.io/s/zwrxov7w3x)
+
 ## Build Setup
 
 ```bash
