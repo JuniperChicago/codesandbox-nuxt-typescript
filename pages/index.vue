@@ -3,9 +3,8 @@
     <div>
       <logo/>
       <h1 class="title">NUXT</h1>
-      <h2 class="subtitle">
-        Starter for CodeSandBox
-      </h2>
+      <h2 class="subtitle">Starter for CodeSandBox</h2>
+      <h3>with Typescript</h3>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
