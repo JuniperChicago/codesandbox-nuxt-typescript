@@ -32,6 +32,8 @@ import IconLink from '~/components/IconLink.vue'
 export default class extends Vue {}
 </script>
 
+
+
 <style scoped>
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,

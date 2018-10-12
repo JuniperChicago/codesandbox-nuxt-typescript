@@ -1,0 +1,9 @@
+{
+  "defaultSeverity": "warning",
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "rules": {
+    "quotemark": [true, "single"],
+    "no-shadowed-variable": false,
+    "no-console": false // For development
+  }
+}

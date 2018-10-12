@@ -9,11 +9,15 @@
 
 <script lang="ts">
 export default {
-  asyncData() {
+  asyncData(context) {
+    if (process['server']) {
+      console.log('rendered on server')
+    }
     return {
       name: process['server'] ? 'server' : 'client'
     }
-  }
+  },
+  middleware: 'about'
 }
 </script>
 
