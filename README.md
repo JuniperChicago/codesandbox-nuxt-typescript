@@ -2,10 +2,7 @@
 
 > Nuxt starter with Typescript for CodeSandBox
 
-This is a typescript version of the nuxt boilerplate found at https://github.com/nuxt/codesandbox-nuxt
-
-[codesandbox.io instance](https://codesandbox.io/s/zwrxov7w3x)
-https://codesandbox.io/s/github/JuniperChicago/codesandbox-nuxt-typescript/tree/master/
+[run at codesandbox.io](https://codesandbox.io/s/github/JuniperChicago/codesandbox-nuxt-typescript/tree/master/)
 
 ## Build Setup
 
@@ -23,5 +20,7 @@ $ yarn start
 # generate static project
 $ yarn run generate
 ```
+
+This is a typescript version of the nuxt boilerplate found at https://github.com/nuxt/codesandbox-nuxt
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
