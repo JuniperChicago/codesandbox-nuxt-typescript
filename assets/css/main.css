@@ -1,19 +1,4 @@
-<template>
-  <div class="NuxtLogo">
-    <div class="Triangle Triangle--two"/>
-    <div class="Triangle Triangle--one"/>
-    <div class="Triangle Triangle--three"/>
-    <div class="Triangle Triangle--four"/>
-  </div>
-</template>
-
-<script lang="ts">
-export default {}
-</script>
-
-<style>
-/* using global css for these */
-/* .NuxtLogo {
+.NuxtLogo {
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -58,5 +43,4 @@ export default {}
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
   border-bottom: 60px solid #fff;
-} */
-</style>
+}

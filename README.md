@@ -4,6 +4,8 @@
 
 [run at codesandbox.io](https://codesandbox.io/s/github/JuniperChicago/codesandbox-nuxt-typescript/tree/master/)
 
+Fragments of useful Nuxt features have been added to show implementation, such as middleware, serverMiddleware, and soon utilizing the Vuex store.
+
 ## Build Setup
 
 ```bash
