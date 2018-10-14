@@ -11,7 +11,7 @@
 export default {
   asyncData(context) {
     if (process['server']) {
-      console.log('rendered on server')
+      // console.log('rendered on server')
     }
     return {
       name: process['server'] ? 'server' : 'client'

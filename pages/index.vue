@@ -13,6 +13,9 @@
         <nuxt-link
           to="/about"
           class="button--grey">About</nuxt-link>
+        <nuxt-link
+          to="/counts"
+          class="button--grey">Store Test</nuxt-link>      
       </div>
     </div>
   </section>
@@ -29,7 +32,12 @@ import IconLink from '~/components/IconLink.vue'
     IconLink
   }
 })
-export default class extends Vue {}
+export default class extends Vue {
+  // fetch with provided context is called on the server side before instantiating component
+  fetch({ store }) {
+    store.commit('increment')
+  }
+}
 </script>
 
 

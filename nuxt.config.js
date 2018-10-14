@@ -27,6 +27,9 @@ module.exports = {
       href: "/favicon.ico"
     }]
   },
+  /**
+   * small middleware function that does nothing but next()
+   */
 
   serverMiddleware: [
     "~/serverMiddleware/index"
@@ -43,7 +46,7 @@ module.exports = {
    ** Global CSS
    */
   // css: [],
-  css: ["~/assets/css/main.css"],
+  css: ["~/assets/style/main.css"],
 
   /*
    ** Plugins to load before mounting the App
