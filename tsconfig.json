@@ -6,7 +6,6 @@
       "es2015"
     ],
     "module": "es2015",
-    // "module": "commonjs",
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
